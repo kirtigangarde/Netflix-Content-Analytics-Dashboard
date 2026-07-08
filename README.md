@@ -19,154 +19,165 @@ The dataset was cleaned and preprocessed using Python in Jupyter Notebook, and i
 ---
 
 ## Objectives
-- Analyze Netflix content distribution
-- Identify the most popular genres
-- Analyze content growth over years
-- Understand country-wise contribution of Netflix content
-- Study audience rating distribution
-- Build an interactive business intelligence dashboard
+- Perform data cleaning and preprocessing using Python.
+- Analyze Netflix Movies and TV Shows dataset.
+- Build an interactive dashboard using Power BI.
+- Visualize trends based on genres, ratings, countries, and release years.
+- Generate meaningful business insights through data analytics.
 
 ---
 
-## Technologies Used
+## 🛠️ Tools & Technologies
 
-### Python Libraries
+- Python
+- Jupyter Notebook
+- Power BI Desktop
 - Pandas
 - NumPy
-
-### Visualization Tool
-- Power BI Desktop
-
-### Development Environment
-- Jupyter Notebook
+- Matplotlib
+- Seaborn
+- WordCloud
 
 ---
 
-## Dataset Information
+## 📂 Dataset
 
-### Dataset Name
-Netflix Movies and TV Shows Dataset
+- **Dataset:** Netflix Movies and TV Shows
+- **Source:** Kaggle
+- **Format:** CSV
 
-### Dataset Source
-Kaggle
-
-### Dataset Features
+The dataset contains information such as:
+- Show ID
 - Title
-- Type
+- Type (Movie / TV Show)
 - Director
 - Cast
 - Country
+- Date Added
 - Release Year
 - Rating
-- Genre
-- Date Added
 - Duration
+- Genre (Listed In)
+- Description
 
 ---
 
-## Data Cleaning Process in Python
+## 🔄 Project Workflow
 
-The following preprocessing steps were performed using Python:
-
-- Handling missing values
-- Removing duplicate records
-- Converting date formats
-- Extracting year and month from dates
-- Cleaning country names
-- Creating genre columns
-- Preparing dataset for Power BI visualization
+1. Import Netflix dataset
+2. Data Cleaning & Preprocessing
+3. Handle Missing Values
+4. Convert Date Formats
+5. Exploratory Data Analysis (EDA)
+6. Create Visualizations using Python
+7. Import Cleaned Data into Power BI
+8. Build Interactive Dashboard
+9. Generate Business Insights
 
 ---
 
-## Power BI Dashboard Features
+# 📊 Python Analysis
 
-The dashboard contains the following visualizations:
+The following analyses were performed using Python:
 
-### KPI Cards
-- Total Netflix Titles
-- Total Movies
-- Total TV Shows
-- Total Countries
+- WordCloud of Netflix Titles
+- Movie Duration Distribution Histogram
+- Correlation Heatmap
+- Monthly Content Addition Trend
+- Top 10 Directors Analysis
+- Content Rating Distribution
+- Top Countries by Content
+- Release Year Distribution
 
-### Charts and Visuals
-- Most Popular Netflix Genres
-- Content Rating Distribution Funnel
-- Netflix Content Growth Over Years
-- Top Countries Producing Netflix Content
-- Decomposition Tree
-- Key Influencer Visual
+---
+
+# 📈 Power BI Dashboard Features
+
+The dashboard includes:
+
+- KPI Cards
+- Genre Analysis
+- Country-wise Analysis
+- Year-wise Content Trend
+- Rating Funnel Chart
+- Scatter Chart
 - Interactive Slicers
+- ArcGIS Map
+- Key Influencer Visual
+- Decomposition Tree
 
 ---
 
-## Dashboard Insights
+# 💡 Key Business Insights
 
-### Key Findings
-- Movies dominate Netflix content compared to TV Shows.
-- Netflix content rapidly increased after 2015.
-- United States contributes the highest amount of content.
-- Drama and Comedy are among the most popular genres.
-- TV-MA and TV-14 are the most common audience ratings.
-
----
-
-## Software Requirements
-
-| Software | Version |
-|---|---|
-| Python | 3.x |
-| Jupyter Notebook | Latest |
-| Power BI Desktop | Latest |
-| Windows OS | Windows 10/11 |
+- Movies dominate Netflix's content library compared to TV Shows.
+- Drama and International Movies are among the most popular genres.
+- The United States contributes the highest amount of Netflix content.
+- Netflix content additions increased significantly after 2015.
+- TV-MA and TV-14 are the most common audience rating categories.
+- Most Netflix movies have durations between 80 and 120 minutes.
+- Interactive dashboards enable faster and more effective data analysis.
 
 ---
 
-## Hardware Requirements
+# 📁 Project Structure
 
-| Component | Requirement |
-|---|---|
-| RAM | Minimum 4GB |
-| Processor | Intel i3 |
-| Storage | 2GB Free Space |
-
----
-
-## Project Workflow
-
-1. Dataset Collection
-2. Data Cleaning using Python
-3. Data Transformation
-4. Data Import into Power BI
-5. Dashboard Development
-6. Visualization and Analysis
-7. Final Report Preparation
-
----
-
-## Features of the System
-
-- Interactive dashboard
-- Dynamic filtering using slicers
-- Business intelligence analysis
-- User-friendly interface
-- Dark Netflix-themed design
+```
+Netflix-Content-Analytics/
+│
+├── Dataset/
+│   └── netflix_titles.csv
+│
+├── Python/
+│   └── Netflix_Analysis.ipynb
+│
+├── PowerBI/
+│   └── Netflix_Dashboard.pbix
+│
+├── Images/
+│   ├── Dashboard.png
+│   ├── WordCloud.png
+│   ├── Heatmap.png
+│   └── Histogram.png
+│
+└── README.md
+```
 
 ---
 
-## Future Enhancements
+# 🚀 Future Enhancements
 
-- Integration with real-time streaming datasets
-- Advanced predictive analytics
-- Recommendation system using Machine Learning
-- User behavior analysis
+- Integrate live Netflix data using APIs.
+- Implement Machine Learning for content recommendations.
+- Develop predictive analytics for future content trends.
+- Enhance dashboard with real-time data updates.
 
 ---
 
-## Limitations
+# 📚 Libraries Used
 
-- Dataset may contain missing or outdated information
-- Dashboard depends on static dataset
-- Limited advanced predictive analytics
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from wordcloud import WordCloud, STOPWORDS
+```
+
+---
+
+# 📖 Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- Data Cleaning
+- Data Preprocessing
+- Exploratory Data Analysis (EDA)
+- Business Intelligence
+- Data Visualization
+- Dashboard Design
+- Power BI Development
+- Python Data Analytics
 
 ---
 
